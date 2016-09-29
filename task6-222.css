@@ -1,0 +1,75 @@
+
+*{padding:0;margin:0}
+html{  font-family: 微软雅黑;font-size: 62.5%;font-size: 2rem;
+         }
+.main{ max-width:640px; min-width:640px;width:100%;margin:0 auto;
+        background-color: rgb(41,189,224);overflow: hidden;
+        }
+.header{width:100%;height:3rem;text-align: center;position:relative;
+        background-color:rgb(41,189,224);color:white;
+}
+.header-left{
+    position:absolute;left:1rem;top:1rem;
+}
+.header-right{
+    position:absolute;right:1rem;top:1rem;
+}
+.header-middle span{
+    line-height: 3rem;height:3rem;
+}
+.vote{ width:100%;height:3rem;background-color:rgb(185,233,245);
+    font-size:1rem;position:relative;
+}
+.vote span{line-height:3rem;padding-left:1.5rem;}
+.vote-nav{
+    width:0;height:0;border-top:13px solid rgb(185,233,245);border-left:6px solid transparent;
+    border-right:6px solid transparent;
+    position:absolute;bottom:-13px;left:2rem;
+}
+.vote-msg{      font-size:0.5rem;   color:white;
+    position:absolute;bottom: -1.5rem;left:2rem;
+}
+.vote-img{
+    position:absolute;right:1rem;top:0.75rem;
+}
+.main-content{
+    width:504px;margin:0 auto;overflow: hidden;
+   padding-top:2rem;
+}
+.content-line1{
+    width:100%;overflow: hidden;
+}
+.box1{
+    width:100px;height:100px;float:left;text-align: center;
+        background-color: orange;border:4px solid white;margin:30px;position:relative;
+}
+.box1 p{
+    line-height: 80px;
+}
+.box1 span{
+    line-height: 20px;font-size:0.5rem;display:block;
+    background-color:green;color:white;
+}
+.content-line2{width:444px;margin:0 auto;
+    height:10px;border-bottom: 1px solid white;overflow: hidden;
+}
+.content-line2-gutter1{
+    width:100px;height:8px;background-color: orange;
+    float:left;margin-right: 30px ;border:4px solid white;
+}
+.content-line2-gutter2{
+    width:100px;height:8px;background-color: orange;
+    float:left;margin:0 30px ;border:4px solid white;
+}
+.content-line2-gutter3{
+    width:100px;height:8px;background-color: orange;
+    float:left;margin-left: 30px ;border:4px solid white;
+}
+.content-line3{
+    height:80px;width:80%;margin:0 auto;
+    background-color: orange;
+    text-align: center;margin-top:30px ;margin-bottom: 30px;
+}
+.content-line3 span{
+    display: inline-block;line-height:80px;color:white;
+}
